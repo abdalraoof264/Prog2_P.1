@@ -27,3 +27,12 @@ Im Shop hat er einen Heiltrank und ein Brot gekauft. Jedes hat 5 Gold gekostet.
 Zwischen tag 03 und tag 04 hat er sich erholt, seine health ist wieder auf 10 gegangen und hunger auf 0. Außerdem hat er sein Gold ausgegeben.
 
 Ja, der Held hat etwas gegessen. Er hat ein Brot gegessen bei tag 03.17.
+
+
+---
+
+## Commit Meldung
+
+Beim ersten Commit „Layer system 5“ versteht man nur ungefähr, worum es geht. Die Nachricht ist nicht sehr genau und es wirkt so, als wären mehrere Sachen in einem Commit geändert worden, zum Beispiel Layer-System, Rebase, Spotless und AbstractController. Das finde ich etwas unübersichtlich. Besser wäre eine genauere Nachricht wie „Add layer system to controller“ oder mehrere kleine Commits.
+
+Beim zweiten Commit „[GAME] better Items and Crafting settings“ finde ich die Nachricht besser, weil man direkt sieht, dass es um Items und Crafting geht. Trotzdem ist auch dieser Commit etwas groß, weil mehrere Sachen gleichzeitig geändert wurden. Ich würde es besser finden, wenn Crafting-Rezepte und Item-Änderungen in getrennten Commits wären.
