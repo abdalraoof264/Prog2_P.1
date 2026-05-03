@@ -36,3 +36,23 @@ Ja, der Held hat etwas gegessen. Er hat ein Brot gegessen bei tag 03.17.
 Beim ersten Commit „Layer system 5“ versteht man nur ungefähr, worum es geht. Die Nachricht ist nicht sehr genau und es wirkt so, als wären mehrere Sachen in einem Commit geändert worden, zum Beispiel Layer-System, Rebase, Spotless und AbstractController. Das finde ich etwas unübersichtlich. Besser wäre eine genauere Nachricht wie „Add layer system to controller“ oder mehrere kleine Commits.
 
 Beim zweiten Commit „[GAME] better Items and Crafting settings“ finde ich die Nachricht besser, weil man direkt sieht, dass es um Items und Crafting geht. Trotzdem ist auch dieser Commit etwas groß, weil mehrere Sachen gleichzeitig geändert wurden. Ich würde es besser finden, wenn Crafting-Rezepte und Item-Änderungen in getrennten Commits wären.
+
+
+---
+## Installation und Gradle
+
+Ich habe JDK 25 installiert und mit java -version geprüft. Wichtig ist, dass in der Ausgabe Version 25 und LTS steht.
+
+Als IDE benutze ich IntelliJ IDEA. Ich habe darauf geachtet, dass das Projekt mit Gradle gebaut und gestartet wird.
+
+Ein neues Gradle-Projekt erstellt man mit gradle init. Dabei wählt man Java Application, Groovy als Build-Script und JUnit als Test-API aus.
+
+Alle verfügbaren Gradle-Tasks kann man mit ./gradlew tasks anzeigen lassen. Unter Windows kann man auch gradlew.bat tasks benutzen.
+
+Die Java-Dateien liegen in src/main/java und die Testdateien in src/test/java. Das Buildskript heißt build.gradle. Dort stehen die Plugins, Abhängigkeiten und Einstellungen für das Projekt.
+
+Das Plugin application sorgt dafür, dass man das Java-Programm mit Gradle starten kann. Dadurch gibt es zum Beispiel den Task run. Weitere wichtige Tasks sind build, test und clean.
+
+In IntelliJ kann man die Gradle-Tasks rechts im Gradle-Fenster starten.
+
+Für das Semester habe ich ein Java-Projekt mit Gradle-Support angelegt. Im Projektpfad sollen keine Leerzeichen und keine Sonderzeichen sein. Außerdem soll die IDE wirklich über Gradle bauen. Das erkennt man daran, dass beim Starten Gradle-Ausgaben in der Konsole erscheinen.
