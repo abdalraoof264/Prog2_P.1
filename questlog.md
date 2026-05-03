@@ -10,3 +10,4 @@ Schließlich erreichte Markus einen versteckten Raum im Dungeon, in dem ein myst
 
 Erfrischt und gestärkt machte sich Markus auf den Weg, um die letzte Etappe seiner Quest zu erfüllen. Er kämpfte gegen eine Horde von untoten Kreaturen und bestand Prüfungen, die kaum ein anderer Held überlebt hätte.
 Als Belohnung erhielt er ein neues Schwert.
+Nachdem er ein paar Monster getötet hatte, bemerkte er, dass das Schwert sehr stark war.
